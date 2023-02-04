@@ -1,0 +1,51 @@
+:root{
+    --corH1Icones: #00e0ff;
+    --transicao: 0.5s ease-in-out;
+}
+
+
+header{
+    background-color: #222;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 2.8em;
+    font-weight: 200;
+    color: var(--corH1Icones);
+    cursor: pointer;
+    transition: var(--transicao);
+   
+}
+
+
+header h1:hover{
+    color: white;
+}
+
+
+/* NAV============= */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav a{
+    font-size: 1.5em;
+    margin-right:30px;
+    color: var(--corH1Icones);
+    border: none;
+    transition: var(--transicao);
+}
+
+nav a:hover{
+    box-shadow: 0px 0px 25px #00e0ff;
+    color: white;
+}
+
