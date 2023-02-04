@@ -1,0 +1,110 @@
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/* TEXTO================ */
+
+main .main-container .texto{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main .main-container .texto h2{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+}
+
+main .main-container .texto p{
+    width: 75%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 8%;
+    font-weight: 300;
+    
+}
+
+
+/* TECNOLOGIA */
+
+main .main-container .tecnologia{
+
+    display: flex;
+    flex-direction: column;
+     
+}
+
+main .main-container .tecnologia h2{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+
+/* IMAGENS============= */
+main .main-container .tecnologia .imagens{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* IMAGEM TECNOLOGIA */
+
+main .main-container .tecnologia .imagens .imagem-tecnologia{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    padding: 15px;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-container .tecnologia .imagens .imagem-tecnologia:hover{
+    box-shadow: 0px 0px 10px #00e0ff;
+    width: 115px;
+    height: 115px;
+}
+
+main .main-container .tecnologia .imagens .imagem-tecnologia img{
+    width: 80%;
+}
+
+
+/* FIGURE================== */
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+figure img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    border: 1px solid #00e0ff;
+    margin-bottom: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+
+figure img:hover{
+    box-shadow: 0px 0px 15px #00e0ff;
+}
